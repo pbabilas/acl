@@ -1,5 +1,5 @@
 {
-  "name": "bcode/acl",
+  "name": "pbabilas/acl",
   "description": "Acces controll list",
   "keywords": [
     "acl",
@@ -10,7 +10,8 @@
   "authors": [
     {
       "name": "bcode",
-      "email": "babilas.pawel@gmail.com"
+      "email": "babilas.pawel@gmail.com",
+      "homepage": "https://github.com/pbabilas/acl"
     }
   ],
   "require": {
