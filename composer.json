@@ -1,0 +1,30 @@
+{
+  "name": "bcode/acl",
+  "description": "Acces controll list",
+  "keywords": [
+    "acl",
+    "access controll list"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bcode",
+      "email": "babilas.pawel@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "doctrine/orm": "^2.5",
+    "ramsey/uuid": "^3.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "BCode\\Acl\\": "src//",
+      "BCode\\Acl\\Test\\": "tests//"
+    }
+  }
+}
